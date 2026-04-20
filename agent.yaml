@@ -1,13 +1,13 @@
 agent:
-  id: "{{AGENT_ID}}"
-  team: "{{TEAM_NAME}}"
+  id: "grocery-man"
+  team: "retail"
   runtime: aks
-  interaction_model: "{{INTERACTION_MODEL}}"
-  guardrail_profile: "{{GUARDRAIL_PROFILE}}"
+  interaction_model: "standalone"
+  guardrail_profile: "strict"
 
 identity:
-  sp_client_id: "{{SP_CLIENT_ID}}"
-  keyvault_url: "{{KEYVAULT_URL}}"
+  sp_client_id: "f9fd87d9-2294-400f-b3e5-72d9c54c4ab6"
+  keyvault_url: "https://kv-shop-poc.vault.azure.net/"
 
 tools: []
 
